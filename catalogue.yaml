@@ -61,7 +61,7 @@
         name: mongodb-org-shell
         state: present
 
-    - name: get the categories count
+    - name: Get the categories count
       ansible.builtin.command: mongo --host mongodb.daws76s.online --quiet --eval 'db = db.getSiblingDB("catalogue"); db.products.count()'
       register: product_count
 
