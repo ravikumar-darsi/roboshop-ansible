@@ -1,4 +1,3 @@
----
 - name: Install web Component
   hosts: web
   become: yes
