@@ -1,5 +1,5 @@
 ---
--  name: Install web Component
+- name: Install web Component
   hosts: web
   become: yes
   tasks:
